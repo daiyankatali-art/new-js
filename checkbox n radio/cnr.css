@@ -1,0 +1,27 @@
+body{
+    height: 100vh;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2em;
+    background:linear-gradient(to right,#ff6ec4,#7873f5,#4ade80,#22d3ee,#facc15);
+    /* background:linear-gradient(to right,#0f2027,#203a43,#2c5364,#4b0082,#8e44ad,#000000); */
+animation: gradientMorph 6s ease infinite;
+    /* background-position: center; */
+    /* background-repeat: no-repeat; */
+    background-size:400% 400%;
+    /* background-attachment: fixed; */
+}
+        @keyframes gradientMorph{  
+        0%{
+         background-position:0% 50% ;  
+        }
+        50% {
+         background-position: 100% 50% ;
+        }
+        100%{
+         background-position: 0% 50% ;
+        }
+    }
+#mysubmit{
+    font-size: 1em;
+}
